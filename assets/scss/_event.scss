@@ -5,17 +5,19 @@
      07.EVENT css 
 ===========================*/
 
-.event_area{}
 
 .single_event{
     
     & .event_image{
+        width: 100%;
         overflow: hidden;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         
-        & img{
-            width: 100%;
+        & img{    
+            height: 230px!important;
+            object-fit: cover;
+            display: block;
             @include transition(0.3s);
         }
     }

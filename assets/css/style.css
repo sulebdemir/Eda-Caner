@@ -1093,7 +1093,7 @@ p {
     .single_love .love_content {
       width: 100%;
       margin-top: 30px; } }
-  .single_love .love_content .love_title {
+  .single_love .love_conten {
     font-size: 30px;
     color: #D59A57; }
   .single_love .love_content p {
@@ -1110,7 +1110,7 @@ p {
     width: 40px;
     position: relative;
     color: #D59A57;
-    border: 1px solid #D59A57;
+    /*border: 1px solid #D59A57;*/
     border-radius: 50px;
     font-size: 14px;
     padding: 2px;
@@ -1153,7 +1153,9 @@ p {
         height: 415px;
         object-fit: cover;
         object-position: center; } }
-
+.love_title {
+  font-size: 16px;
+  color: #D59A57; }
 /*===========================
      06.GALLERY css 
 ===========================*/
